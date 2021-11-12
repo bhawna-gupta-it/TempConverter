@@ -1,0 +1,31 @@
+
+.container{		
+	width:800px;
+	height:500px;
+	}
+	
+.column{
+	padding:10px;
+	
+	width:45%; 
+	height: 100%;
+	background-color:aqua;
+	color:white;
+	border-color:black;
+	border-style: solid;
+	border-width: medium;
+}
+
+#errorText{
+color:red;
+
+}
+
+.left {
+	float:left;
+	background-color: lightgrey;
+}
+.right {
+	float: right;
+	background-color: lightblue;
+}
