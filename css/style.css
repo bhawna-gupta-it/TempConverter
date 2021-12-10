@@ -1,31 +1,32 @@
 
-.container{		
-	width:800px;
+.container{
+	/* padding:10px;
+	margin:20px;	 */
+	/*width:800px;*/
 	height:500px;
-	}
 	
+}
 .column{
-	padding:10px;
-	
-	width:45%; 
-	height: 100%;
-	background-color:aqua;
-	color:white;
+	width:40%;
+	height: 80%;
+	float:left;
+	border-width: thick;	
 	border-color:black;
 	border-style: solid;
-	border-width: medium;
-}
-
-#errorText{
-color:red;
+	border-width: thick;
 
 }
 
 .left {
 	float:left;
-	background-color: lightgrey;
+	background-color: cadetblue;
+	
 }
 .right {
 	float: right;
-	background-color: lightblue;
+	background-color: grey;
+	
+}
+#errorText{
+	color: red;
 }
